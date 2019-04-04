@@ -15,9 +15,7 @@
     "dev:client": "npm run start --prefix client",
 
     "client-install": "npm install --prefix client",
-    "postinstall": "npm install --prefix client",
-
-    "heroku-postbuild": "npm run build --prefix client"
+    "postinstall": "npm install --prefix client"
   },
   "author": "",
   "license": "ISC",
