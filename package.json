@@ -8,7 +8,7 @@
     "npm": "6.7.0"
   },
   "scripts": {
-    "start": "NODE_ENV=production node server",
+    "start": "node server",
 
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "nodemon server",
