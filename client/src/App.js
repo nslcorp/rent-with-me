@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Header from './components/Header';
+import AddRental from './components/rental/add-rental';
 
 class App extends Component {
   render() {
@@ -20,6 +21,8 @@ class App extends Component {
                 <Route exact path="/" component={Main} />
                 <Route path="/login" component={Login} />
                 <Route path="/register" component={Register} />
+
+                <Route expath="/add-rent" component={AddRental} />
               </Switch>
             </div>
           </div>

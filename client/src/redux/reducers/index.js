@@ -1,4 +1,5 @@
 import { combineReducers } from "redux";
+import { reducer as formReducer } from 'redux-form';
 // import * as actionTypes from "../actions/types";
 
 const initialUserState = {
@@ -17,5 +18,6 @@ const userReducer = (state = initialUserState, action) => {
 
 
 export default combineReducers({
+  form: formReducer,
   user: userReducer,
 });

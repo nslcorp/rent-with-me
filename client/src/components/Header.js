@@ -29,7 +29,7 @@ const Header = ({isAuth=false}) => {
         </button>
         <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
           <div className='navbar-nav ml-auto'>
-            <a className='nav-item nav-link'> AUTH_USER_NAME</a>
+            <Link className='nav-item nav-link' to='/add-rent'>Add rent</Link>
             {renderAuthButtons(isAuth)}
           </div>
         </div>
